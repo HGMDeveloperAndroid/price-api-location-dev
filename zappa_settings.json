@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "app_function": "app.run.app"
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-q3sszbitz",
+        "project_name": "flask-3b-dev",
+        "lambda_description": "aws:states:opt-out"
+    }
+}

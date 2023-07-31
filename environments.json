@@ -1,0 +1,22 @@
+{
+  "qa": {
+      "user": "3blocations",
+      "group": "3blocations",
+      "hosts": ["40.77.104.83"],
+      "site_dir": "/var/www/vhosts/3blocations.bnomio.dev/public/",
+      "command_prefixes": [
+          "/var/www/vhosts/3blocations.bnomio.dev/env/python/bin/activate",
+          "/var/www/vhosts/3blocations.bnomio.dev/env/envvars"
+      ]
+  },
+  "production": {
+      "user": "api-locations",
+      "group": "api-locations",
+      "hosts": ["40.77.104.83"],
+      "site_dir": "/var/www/vhosts/api-locations.pricecheck3b.com/public/",
+      "command_prefixes": [
+          "/var/www/vhosts/api-locations.pricecheck3b.com/env/python/bin/activate",
+          "/var/www/vhosts/api-locations.pricecheck3b.com/env/envvars"
+      ]
+  }
+}

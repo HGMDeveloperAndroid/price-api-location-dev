@@ -1,0 +1,12 @@
+flask>=1.1,<1.2
+flask-cors==1.8.0
+flask-mysql>=1.4,<1.5
+flask-marshmallow==0.13.0
+flask-sqlalchemy==2.4.4
+marshmallow==3.7.1
+marshmallow-sqlalchemy==0.23.1
+pymysql
+werkzeug<1.0
+zappa==0.54.0
+markupsafe==2.0.1
+SQLAlchemy<1.4

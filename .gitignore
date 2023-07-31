@@ -1,0 +1,13 @@
+.cache/
+.coverage/
+.pytest_cache/
+.tox
+*.lock
+*.log
+*.pyc
+*.swp
+*.sql
+
+*venv
+.env*
+.idea
